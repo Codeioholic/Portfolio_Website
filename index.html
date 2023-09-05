@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/fevicon-image" href="Resources/online-resume.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".btn-box").click(function() {
+                $(".btn-box").fadeOut("fast");
+                $(".dot-continue").fadeOut("fast");
+                $(".additional-info").fadeIn(3000);
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#mh-skills">Skill</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ujjwal Kumar</h1>
+            <p>I'm a passionate and skilled web developer.
+                <br>Pursuing a CS degree and has experience in Java, HTML, CSS, JavaScript and many more....</p>
+            
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/ujjwal-kumar-a39b57226"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Codeioholic"><i class='bx bxl-github' ></i></a>
+                <a href="mailto: kumarujjwal7264@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=9835148443"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="Resources/Ujjwal's Resume.pdf" download class="btn-box-resume">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Figma Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxl-java' ></i>
+                    <h3>Java Coding</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="Resources/person.png" alt="professional_employee">
+        </div>
+        
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Resources/about_1.png" alt="about" >
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Web Developer!</h4>
+            <p>I am a computer science student who is passionate about learning new technologies and creating innovative solutions. I have a strong background in Java, Data Structures and Algorithms, Computer Networks, Linux, HTML, CSS and JavaScript. I am interested in exploring various domains of computer science, such as Artificial Intelligence, Web Development, Data Science, and Cybersecurity.I am always eager to learn new things and improve my skills. I enjoy taking on challenges and finding creative solutions. I am looking for opportunities to apply my knowledge and skills in real-world scenarios and contribute to the advancement of computer science <span class="dot-continue">....</span></p>
+            <p class="additional-info"> I have a high CGPA of 9.11 and have an excellent interpersonal skills that enable me to work effectively with other members of a team. I have completed several projects and courses that demonstrate my technical and problem-solving abilities. I believe that there is always a chance to learn anything and that's what a life is all about, always learn and improve. Never get attached with your present self that you don't give a chance to your future self.</p>
+
+            <a class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+
+    <!-- Skills & Chart markup starts -->
+
+    <section class="mh-skills" id="mh-skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-skills-inner">
+                        <div class="mh-professional-skill">
+                            <h3>Technical Skills</h3>
+                            <div class="each-skills">
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="nome">Java</div>
+                                            <div class="percentage-num">86%</div>
+                                        </div>
+                                        <div class="ProgressBar">
+                                            <div class="percentagem" style="width: 86%;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="nome">HTML</div>
+                                            <div class="percentage-num">72%</div>
+                                        </div>
+                                        <div class="ProgressBar">
+                                            <div class="percentagem" style="width: 80%;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="nome">CSS</div>
+                                            <div class="percentage-num">75%</div>
+                                        </div>
+                                        <div class="ProgressBar">
+                                            <div class="percentagem" style="width: 75%;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="nome">JavaScript</div>
+                                            <div class="percentage-num">72%</div>
+                                        </div>
+                                        <div class="ProgressBar">
+                                            <div class="percentagem" style="width: 72%;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="nome">DSA</div>
+                                            <div class="percentage-num">81%</div>
+                                        </div>
+                                        <div class="ProgressBar">
+                                            <div class="percentagem" style="width: 81%;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="nome">Networking</div>
+                                            <div class="percentage-num">77%</div>
+                                        </div>
+                                        <div class="ProgressBar">
+                                            <div class="percentagem" style="width: 77%;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-professional-skills">
+                        <h3>Professional Skills</h3>
+                        <div class="ProgressBar-container">
+                            <div class="card">
+                                <div class="progress-percentage" style="--clr:#754ef9;--num:72">
+                                    <div class="dot"></div>
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>72<span>%</span></h2>
+                                        <p>Communication</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="progress-percentage" style="--clr:#754ef9;--num:90">
+                                    <div class="dot"></div>
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>90<span>%</span></h2>
+                                        <p>Team Work</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="progress-percentage" style="--clr:#754ef9;--num:76">
+                                    <div class="dot"></div>
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>76<span>%</span></h2>
+                                        <p>Project Management</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="progress-percentage" style="--clr:#754ef9;--num:87">
+                                    <div class="dot"></div>
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>87<span>%</span></h2>
+                                        <p>Creativity</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Thank you for visiting my portfolio website. I hope you enjoyed browsing through my work and learning more about me. If you have any questions, comments, feedback, or inquiries, please feel free to contact me using the form. I will get back to you as soon as possible. You can also follow me on social media to stay updated on my latest projects and achievements. I look forward to hearing from you and working with you in the future.</p>
+            <div class="contact-list">
+                <li><i class='bx bx-send'></i> kumarujjwal7264@gmail.com</li>
+                <li><i class='bx bx-phone' ></i> +91 9835148443</li>
+            </div>
+            <div class="contact-icons">
+                <a href="www.linkedin.com/in/ujjwal-kumar-a39b57226"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Codeioholic"><i class='bx bxl-github' ></i></a>
+                <a href="mailto: kumarujjwal7264@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=9835148443"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="" placeholder="Full Name..." required>
+                <input type="email" placeholder="Email..." required>
+                <input type="" placeholder="Subject...">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Message..."></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevron-up'></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-circle-progress/dist/circle-progress.min.js" type="module"></script>
+</body>
+</html>
